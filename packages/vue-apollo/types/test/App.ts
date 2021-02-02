@@ -2,9 +2,8 @@
 /* eslint-disable vue/one-component-per-file */
 
 // this example src is https://github.com/Akryum/vue-apollo-example
-import gql from 'graphql-tag'
 import Vue from 'vue'
-import { OperationVariables, ApolloQueryResult } from 'apollo-client'
+import { OperationVariables, ApolloQueryResult, gql } from '@apollo/client/core'
 import { VueApolloQueryDefinition } from '../options'
 import { DocumentNode } from 'graphql'
 
